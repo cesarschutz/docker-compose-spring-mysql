@@ -1,0 +1,8 @@
+builda a imagem: docker build -f Dockerfile -t cesarschutz/spring-demo-app .
+roda o container com a imagem: docker run -d/-it -p 12345:8080 spring-demo-app
+
+para subir o compose, basta acessar localhost para acessar o banco e localhost:8080 para acessar a aplicação
+
+localhost:8080/ola-mundo
+localhost:8080/all
+localhost:8080/demo/add?name=cesar&email=ola@cesar.com
